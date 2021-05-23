@@ -854,6 +854,22 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "CST-ERC20",
+                "name": "cst_erc20",
+                "fname": "Coin Stack Token",
+                "rpcport": 80,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "avg_blocktime": 0.25,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0xf4c477e0002767b501785494e5e28dc1c5862706"
+                        }
+                }
+        },
 	{
 		"coin": "DAI-ERC20",
 		"name": "dai_erc20",
